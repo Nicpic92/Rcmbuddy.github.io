@@ -3,28 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>RcmBuddy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004d99;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #003366;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about {
+            background-color: #e6ffe6;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .buttons a {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+        .buttons a:hover {
+            background-color: #005bb5;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to RcmBuddy</h1>
     </header>
-    <main>
-        <!-- Main content goes here -->
-    </main>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+    <div class="container">
+        <h2>Home Page</h2>
+        <p>Welcome to RcmBuddy, your partner in streamlining the revenue cycle management process from start to finish.</p>
+        <div class="buttons">
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+        </div>
+    </div>
     <footer>
-        <!-- Footer content goes here -->
+        <p>© 2024 RcmBuddy. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
 
 
 
